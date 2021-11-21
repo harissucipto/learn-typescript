@@ -1,3 +1,5 @@
+// Object and Types alias
+
 type Point = { x: number; y: number };
 
 // using types alias
