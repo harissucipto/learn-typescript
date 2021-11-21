@@ -18,7 +18,7 @@ let Point3D: Point3D = { x: 1, y: 2, z: 3 };
 // Extra info ok
 Point2D = Point3D; // OK
 function takesPoint3D(p: Point3D) {}
-takesPoint3D(Point2D); // Error
+// takesPoint3D(Point2D); // Error
 
 function takesPoint2D(p: Point2D) {}
 takesPoint2D(Point3D); // OK
