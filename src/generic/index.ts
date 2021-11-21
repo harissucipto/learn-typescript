@@ -13,4 +13,4 @@ class Antrian<T> {
 
 const myAntrian: Antrian<number> = new Antrian();
 myAntrian.push(1);
-myAntrian.push("3243");
+myAntrian.push(1);
